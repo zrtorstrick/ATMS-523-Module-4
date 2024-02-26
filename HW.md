@@ -9,7 +9,7 @@ For this assignment, use the ERA-5 *monthly mean* data at NCAR (DOI: 10.5065/P8G
 
 1) Create a dataset that contains the monthly means of Sea Surface Temperature anomalies and total column water vapor from Jan 1979-Dec 2023 over the Pacific Basin (65°N to 65°S, 120°E to 60°W) masked out over land - save this to your computer. The land sea mask is available here: https://rda.ucar.edu/thredds/dodsC/files/g/ds633.0/e5.oper.invariant/197901/e5.oper.invariant.128_172_lsm.ll025sc.1979010100_1979010100.nc
 
-*Skill check in:* due Friday, Mar 1, end of day to slack: Plot maps of the mean SST and mean precipitation for the entire period of record.
+*Skill check in:* due Friday, Mar 1, end of day to slack: Plot maps of the mean SST and mean total column water vapor for the entire period of record.
 
 2)  From the dataset shown in 1, compute anomalies by deseasonalizing the data (remove the mean monthly anomaly from the annual mean from each point), detrend, and standardize the SST anomalies.  Standardization means subtract the long term mean and divide by the standard deviation, which can be accomplished using the methods described here: [6.3. Preprocessing data &mdash; scikit-learn 1.1.2 documentation](https://scikit-learn.org/stable/modules/preprocessing.html)
    
